@@ -13,7 +13,7 @@ export default function MySkills() {
       </div>
       <div className="flex flex-wrap justify-center gap-5">
         <Skill logo={html} name={`HTML5`} />
-        <Skill logo="/assets/tool-icons/css-logo.png" name={`CSS3`} />
+        <Skill logo="../../../assets/tool-icons/css-logo.png" name={`CSS3`} />
         <Skill logo="src/assets/tool-icons/js-logo.png" name={`JavaScript`} />
         <Skill logo="src/assets/tool-icons/react-logo.png" name={`React`} />
         <Skill logo="src/assets/tool-icons/redux-icon.webp" name={`Redux`} />
