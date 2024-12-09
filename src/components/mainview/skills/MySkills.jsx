@@ -1,7 +1,7 @@
 import Skill from "./Skill"
 import { TbApi } from "react-icons/tb";
 import { RiLoopRightLine } from "react-icons/ri";
-import html from "/assets/tool-icons/html-logo.png";
+import html from "../../../assets/tool-icons/html-logo.png";
 
 export default function MySkills() {
   return (
