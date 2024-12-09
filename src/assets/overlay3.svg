@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="1000px" viewBox="0 0 1000 1000" zoomAndPan="disable">
+    <style type="text/css"><![CDATA[
+		.p-4 { fill: rgba(255,255,255,0.16); }
+		.p-3 { fill: rgba(255,255,255,0.12); }
+		.p-2 { fill: rgba(255,255,255,0.08); }
+		.p-1 { fill: rgba(255,255,255,0.04); }
+		.p0 { fill: none; }
+		.p1 { fill: rgba(0,0,0,0.025); }
+		.p2 { fill: rgba(0,0,0,0.05); }
+		.p3 { fill: rgba(0,0,0,0.075); }
+		.p4 { fill: rgba(0,0,0,0.1); }
+    ]]></style>
+	<polygon class="p-4" points="-1125,0 -375,1000 125,1000 -875,0" />
+	<polygon class="p-3" points="-875,0 125,1000 375,1000 -625,0" />
+	<polygon class="p-2" points="-625,0 375,1000 625,1000 -375,0" />
+	<polygon class="p-1" points="-375,0 625,1000 875,1000 -125,0" />
+	<polygon class="p0" points="-125,0 875,1000 1125,1000 125,0" />
+	<polygon class="p1" points="125,0 1125,1000 1375,1000 375,0" />
+	<polygon class="p2" points="375,0 1375,1000 1625,1000 625,0" />
+	<polygon class="p3" points="625,0 1625,1000 1875,1000 875,0" />
+	<polygon class="p4" points="875,0 1875,1000 2125,1000 1125,0" />
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
