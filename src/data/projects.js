@@ -14,13 +14,18 @@ import express from "../assets/tool-icons/express.png";
 import firebase from "../assets/tool-icons/firebase.png";
 import cloudinary from "../assets/tool-icons/cloudinary.webp";
 
+import mern from "../assets/mern-reed-clone.png";
+import gamedb from "../assets/react-game-db-img-drk.png";
+import kanban from "../assets/react-kanban-light.png";
+import timeline from "../assets/nx-50.png";
+
 
 const projects = [
   {
   id: 1,
   title: "MERN Full Stack Reed Clone",
   img: "src/assets/mern-reed-clone.png",
-  link: "https://amits-mern-jobboard-reed-clone.onrender.com/",
+  link: mern,
   desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
   tools: [
     {id: 1, icon: mongodb, alt: 'Mongo DB'},
@@ -39,7 +44,7 @@ const projects = [
     {
     id: 2,
     title: "React Game DB (API)",
-    img: "src/assets/react-game-db-img-drk.png",
+    img: gamedb,
     link: "https://amits-react-gamedb.netlify.app/",
     desc: `A fun project I built with a modern web stack - React JS, Redux for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API. Check it out below!`,
     tools: [
@@ -54,7 +59,7 @@ const projects = [
   {
     id: 3,
     title: "React Kanban Board",
-    img: "src/assets/react-kanban-light.png",
+    img: kanban,
     link: "https://amits-react-kanbanboard.netlify.app/",
     desc: `This project was built from scratch using a modern web stack including React JS, Redux for global state management, React Router DOM for navigation, and Tailwind CSS for styling. Check it out below!`,
     tools: [
@@ -68,7 +73,7 @@ const projects = [
   {
     id: 4,
     title: "National Express 50th Timeline",
-    img: "src/assets/nx-50.png",
+    img: timeline,
     link: "https://www.nationalexpress.com/en/timeline",
     desc: `I was tasked to develop an interactive timeline to celebrate 50 years of National Express. This project was built in vanilla JS, Sass, Bootstrap for some of the widgets and Glide JS for the interactivity. Check it out below!`,
     tools: [
