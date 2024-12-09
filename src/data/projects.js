@@ -24,8 +24,8 @@ const projects = [
   {
   id: 1,
   title: "MERN Full Stack Reed Clone",
-  img: "src/assets/mern-reed-clone.png",
-  link: mern,
+  img: mern,
+  link: "https://amits-mern-jobboard-reed-clone.onrender.com/",
   desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
   tools: [
     {id: 1, icon: mongodb, alt: 'Mongo DB'},
