@@ -1,6 +1,7 @@
 import Skill from "./Skill"
 import { TbApi } from "react-icons/tb";
 import { RiLoopRightLine } from "react-icons/ri";
+import html from "src/assets/tool-icons/html-logo.png";
 
 export default function MySkills() {
   return (
@@ -11,7 +12,7 @@ export default function MySkills() {
         <p className="text-white font-light lg:text-[20px] lg:leading-[36px]">My current skills (I&apos;m always looking to add these)</p>
       </div>
       <div className="flex flex-wrap justify-center gap-5">
-        <Skill logo="src/assets/tool-icons/html-logo.png" name={`HTML5`} />
+        <Skill logo={html} name={`HTML5`} />
         <Skill logo="src/assets/tool-icons/css-logo.png" name={`CSS3`} />
         <Skill logo="src/assets/tool-icons/js-logo.png" name={`JavaScript`} />
         <Skill logo="src/assets/tool-icons/react-logo.png" name={`React`} />
