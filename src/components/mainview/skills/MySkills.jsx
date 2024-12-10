@@ -5,6 +5,7 @@ import html from "../../../assets/tool-icons/html-logo.png";
 import css from "../../../assets/tool-icons/css-logo.png";
 import js from "../../../assets/tool-icons/js-logo.png";
 import react from "../../../assets/tool-icons/react-logo.png";
+import angular from "../../../assets/tool-icons/angular_gradient.png";
 import redux from "../../../assets/tool-icons/redux-icon.webp";
 import mongo from "../../../assets/tool-icons/mongodb.svg";
 import express from "../../../assets/tool-icons/express.png";
@@ -16,6 +17,7 @@ import github from "../../../assets/tool-icons/github-logo.png";
 import bitbucket from "../../../assets/tool-icons/bitbucket-logo.png";
 import trello from "../../../assets/tool-icons/trello.svg";
 import jira from "../../../assets/tool-icons/jira.png";
+import postman from "../../../assets/tool-icons/postman.svg"
 
 export default function MySkills() {
   return (
@@ -34,6 +36,7 @@ export default function MySkills() {
         <Skill logo={mongo} name={`MongoDB`} />
         <Skill logo={express} name={`Express`} />
         <Skill logo={node} name={`Node JS`} />
+        <Skill logo={angular} name={`Beginner Angular JS`} />
         <Skill logo={tailwind} name={`Tailwind`} />
         <Skill logo={sass} name={`Sass`} />
         <Skill logo={bootstrap} name={`Bootstrap`} />
@@ -49,6 +52,7 @@ export default function MySkills() {
           <div><TbApi className="w-[20px] text-black bg-lime-400" /></div>
           <div><p className="text-lg sm:text-xl font-medium text-white">API&apos;s</p></div>
         </div>
+        <Skill logo={postman} name={`Postman`} />
       </div>
     </div>
     </>

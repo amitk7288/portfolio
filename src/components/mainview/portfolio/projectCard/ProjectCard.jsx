@@ -14,7 +14,7 @@ export default function ProjectCard({title, img, desc, tools, link}) {
         </div>
 
         {/* Info Section */}
-        <div className="flex flex-col gap-[10px] p-[15px] h-[300px] justify-between">
+        <div className="flex flex-col gap-[10px] p-[15px] min-h-[300px] justify-between h-auto">
           <div>
           <div className="grid grid-cols-1">
             <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
@@ -25,7 +25,7 @@ export default function ProjectCard({title, img, desc, tools, link}) {
 
           {/* Tools Section */}
           <div className="flex flex-col gap-3 justify-between cursor-default">
-            <ul className="flex items-center justify-center gap-4 list-none sm:justify-start">
+            <ul className="flex flex-wrap xl:flex-nowrap items-center justify-center gap-4 list-none sm:justify-start">
               {tools.map((t) => (
                 <li key={t.id}>
                   <img src={t.icon} alt={t.alt} title={t.alt} className="h-6 w-6 object-contain" />

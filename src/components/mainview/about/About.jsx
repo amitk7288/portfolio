@@ -19,9 +19,8 @@ export default function About() {
       <div className="flex flex-col gap-5 lg:flex-row-reverse lg:gap-8 2xl:gap-10">
         <article className="prose lg:prose-xl prose-gray max-w-full lg:basis-[45%] xl:basis-[55%]">
           <h2 className="mb-2">Learning and Teaching</h2>
-          <p>
-            My drive to continuously learn keeps me updated on the latest industry trends and best practices, enabling me to build creative and efficient projects. I also share my knowledge and teach others on my <a href="https://www.youtube.com/@DevDreamer" target="_blank" className="bg-red-50 text-[#dd0031] font-semibold">YouTube channel - Dev Dreamer</a>, where I make Web Development easy to understand and follow.
-          </p>
+          <p>My drive to continuously learn keeps me updated on the latest industry trends and best practices, enabling me to build creative and efficient projects. I also share my knowledge and teach others on my <a href="https://www.youtube.com/@DevDreamer" target="_blank" className="bg-red-50 text-[#dd0031] font-semibold">YouTube channel - Dev Dreamer</a>, where I make Web Development easy to understand and follow.</p>
+          <p>In addition to hands-on development, I am passionate about sharing my knowledge with others. Through my YouTube channel, Dev Dreamer, I strive to make complex web development concepts accessible and easy to understand for aspiring developers. By creating tutorials, coding challenges, and in-depth explanations, I aim to empower individuals to confidently embark on their own web development journeys. This teaching experience not only helps others to grow but also keeps me engaged with the community, receiving valuable feedback and insights that further enhance my skills and understanding of the field.</p>
         </article>
         <div className="lg:basis-[55%] xl:basis-[45%]">
         <div className="flex justify-center">
