@@ -25,7 +25,7 @@ export default function MySkills() {
       <div className="bg-[#1f0e41] px-8 py-8 my-6 lg:my-20 xs:px-10 lg:px-14 xl:px-20 2xl:px-40 3xl:px-[400px]">
       <div className="flex flex-col gap-1 mb-6 text-center">
         <h2 className="text-white text-2xl font-bold lg:text-[36px]">Skills</h2>
-        <p className="text-white font-light lg:text-[20px] lg:leading-[36px]">My current skills (I&apos;m always looking to add these)</p>
+        <p className="text-white font-light lg:text-[20px] lg:leading-[36px]">My current skills (I&apos;m always looking to add to these)</p>
       </div>
       <div className="flex flex-wrap justify-center gap-5">
         <Skill logo={html} name={`HTML5`} />
@@ -36,7 +36,7 @@ export default function MySkills() {
         <Skill logo={mongo} name={`MongoDB`} />
         <Skill logo={express} name={`Express`} />
         <Skill logo={node} name={`Node JS`} />
-        <Skill logo={angular} name={`Beginner Angular JS`} />
+        <Skill logo={angular} name={`Beginner Angular`} />
         <Skill logo={tailwind} name={`Tailwind`} />
         <Skill logo={sass} name={`Sass`} />
         <Skill logo={bootstrap} name={`Bootstrap`} />
