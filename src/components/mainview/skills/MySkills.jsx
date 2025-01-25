@@ -36,7 +36,7 @@ export default function MySkills() {
         <Skill logo={mongo} name={`MongoDB`} />
         <Skill logo={express} name={`Express`} />
         <Skill logo={node} name={`Node JS`} />
-        <Skill logo={angular} name={`Beginner Angular`} />
+        <Skill logo={angular} name={`Angular`} />
         <Skill logo={tailwind} name={`Tailwind`} />
         <Skill logo={sass} name={`Sass`} />
         <Skill logo={bootstrap} name={`Bootstrap`} />
