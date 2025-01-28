@@ -13,7 +13,7 @@ export default function Hero() {
   </div>
       <div className="text-white flex flex-col items-center gap-4">        
         <h1 className="text-center text-[28px] font-light sm:text-[28px]leading-snug md:text-[39px] md:leading-snug lg:text-[42px] lg:leading-tight xl:text-[44px] xl:leading-tight 2xl:text-5xl 2xl:leading-snug">Hi 👋 I&apos;m <b>Amit</b>,<br /> an experienced Web Developer <br /> based in the West Midlands.</h1>
-        <p className="text-center md:text-lg xl:text-[20px] 2xl:text-2xl w-[60%]">As a full-stack developer, I enjoy working with the MERN stack (MongoDB, Express.js, React, Node.js). While React remains my primary strength, I am actively broadening my knowledge with Angular and Vue.</p>
+        <p className="text-center md:text-lg xl:text-[20px] 2xl:text-2xl w-[60%]">I enjoy working with React and Angular, I am also actively broadening my knowledge in Vue JS.</p>
         <div className="relative flex items-center gap-5">
           <a href="#projects" className="block transition-colors duration-400 ease-in-out mt-10 border-[1.5px] border-white rounded-md px-10 py-2 font-semibold tracking-wider hover:bg-white hover:text-[#222222] bg-white text-[#222222]">MY PROJECTS</a>
           <a href="#about" className="block transition-colors duration-400 ease-in-out mt-10 border-[1.5px] border-white rounded-md px-10 py-2 font-medium tracking-wider hover:bg-white hover:text-[#222222]">LEARN MORE</a>
