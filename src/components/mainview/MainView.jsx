@@ -5,10 +5,10 @@ import Portfolio from "./portfolio/Portfolio"
 
 export default function MainView() {
   return (
-    <div>
-      <About />
+    <div className="antialised">
       <MySkills />
       <Portfolio />
+      <About />
     </div>
   )
 }
