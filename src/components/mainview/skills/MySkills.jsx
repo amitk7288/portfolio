@@ -11,6 +11,7 @@ import react from "../../../assets/tool-icons/react-logo.png";
 import storybook from "../../../assets/tool-icons/storybook.svg";
 import bem from "../../../assets/tool-icons/bem.png";
 import jest from "../../../assets/tool-icons/jest.png";
+import rtl from "../../../assets/tool-icons/rtl.png";
 import firebase from "../../../assets/tool-icons/firebase.png";
 import angular from "../../../assets/tool-icons/angular_gradient.png";
 import redux from "../../../assets/tool-icons/redux-icon.webp";
@@ -62,6 +63,7 @@ export default function MySkills() {
           <p className="text-[22px] font-semibold tracking-wide mb-3">Testing :</p>
           <div className="flex gap-3 flex-wrap">
             <Skill logo={jest} name={`Jest`} />
+            <Skill logo={rtl} name={`React Testing Library`} />
             <Skill logo={storybook} name={`Storybook`} />
           </div>
         </li>
