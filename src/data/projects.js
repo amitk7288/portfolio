@@ -6,6 +6,7 @@ import reactIcons from "../assets/tool-icons/react-icons-icon.svg";
 import github from "../assets/tool-icons/github-logo.png";
 import bitbucket from "../assets/tool-icons/bitbucket-logo.png";
 import js from "../assets/tool-icons/js-logo.png";
+import ts from "../assets/tool-icons/ts-logo.svg.png";
 import sass from "../assets/tool-icons/sass-logo.png";
 import boot from "../assets/tool-icons/Bootstrap.png";
 import html from "../assets/tool-icons/html-logo.png";
@@ -47,22 +48,8 @@ const projects = [
     {id: 12, icon: postman, alt: 'Postman'},
   ],
   },
- {
-    id: 2,
-    title: "National Express Journey Planner (1M + Users)",
-    img: nxjp,
-    link: "https://book.nationalexpress.com/coach/#/choose-journey",
-    desc: `I was tasked to work on the National Express Journey Planner, which is used by millions of users. The journey planner itself required me to work with Angular and Sass, and we worked together on this project using Git and BitBucket.`,
-    tools: [
-      {id: 1, icon: angular, alt: 'angular'},
-      {id: 2, icon: sass, alt: 'sass'},
-      {id: 3, icon: js, alt: 'javascript'},
-      {id: 4, icon: bitbucket, alt: 'bitbucket'},
-      {id: 5, icon: jira, alt: 'jira'},
-    ],
-  },
   {
-  id: 3,
+  id: 2,
   title: "React Game DB (API)",
   img: gamedb,
   link: "https://amits-react-gamedb.netlify.app/",
@@ -78,7 +65,7 @@ const projects = [
   ],
   },
   {
-    id: 4,
+    id: 3,
     title: "React Kanban Board",
     img: kanban,
     link: "https://amits-react-kanbanboard.netlify.app/",
@@ -91,6 +78,20 @@ const projects = [
       {id: 5, icon: github, alt: 'github'},
     ],
   }, 
+   {
+    id: 4,
+    title: "National Express Journey Planner (1M + Users)",
+    img: nxjp,
+    link: "https://book.nationalexpress.com/coach/#/choose-journey",
+    desc: `I was tasked to work on the National Express Journey Planner, which is used by millions of users. The journey planner itself required me to work with Angular and Sass, and we worked together on this project using Git and BitBucket.`,
+    tools: [
+      {id: 1, icon: angular, alt: 'angular'},
+      {id: 3, icon: ts, alt: 'Typescript'},
+      {id: 2, icon: sass, alt: 'sass'},
+      {id: 4, icon: bitbucket, alt: 'bitbucket'},
+      {id: 5, icon: jira, alt: 'jira'},
+    ],
+  },
   {
     id: 5,
     title: "National Express 50th Timeline",
