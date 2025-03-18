@@ -11,6 +11,7 @@ import react from "../../../assets/tool-icons/react-logo.png";
 import storybook from "../../../assets/tool-icons/storybook.svg";
 import bem from "../../../assets/tool-icons/bem.png";
 import jest from "../../../assets/tool-icons/jest.png";
+import vitest from "../../../assets/tool-icons/vitest.svg";
 import rtl from "../../../assets/tool-icons/rtl.png";
 import firebase from "../../../assets/tool-icons/firebase.png";
 import angular from "../../../assets/tool-icons/angular_gradient.png";
@@ -53,15 +54,16 @@ export default function MySkills() {
           </div>
         </li>
         <li>
-          <p className="text-[22px] font-semibold tracking-wide mb-3">Component-Driven Development :</p>
+          <p className="text-[22px] font-semibold tracking-wide mb-3">CDD:</p>
           <div className="flex gap-3 flex-wrap">
             <Skill logo={storybook} name={`Storybook`} />
-            <Skill logo={bem} name={`BEM (Block, Element, Modifier)`} />
+            <Skill logo={bem} name={`BEM`} />
           </div>
         </li>
         <li>
           <p className="text-[22px] font-semibold tracking-wide mb-3">Testing :</p>
           <div className="flex gap-3 flex-wrap">
+            <Skill logo={vitest} name={`Vitest`} />
             <Skill logo={jest} name={`Jest`} />
             <Skill logo={rtl} name={`React Testing Library`} />
             <Skill logo={storybook} name={`Storybook`} />
