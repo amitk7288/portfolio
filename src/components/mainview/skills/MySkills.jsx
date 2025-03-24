@@ -13,6 +13,7 @@ import bem from "../../../assets/tool-icons/bem.png";
 import jest from "../../../assets/tool-icons/jest.png";
 import vitest from "../../../assets/tool-icons/vitest.svg";
 import rtl from "../../../assets/tool-icons/rtl.png";
+import msw from "../../../assets/tool-icons/msw.svg";
 import firebase from "../../../assets/tool-icons/firebase.png";
 import angular from "../../../assets/tool-icons/angular_gradient.png";
 import redux from "../../../assets/tool-icons/redux-icon.webp";
@@ -66,6 +67,7 @@ export default function MySkills() {
             <Skill logo={vitest} name={`Vitest`} />
             <Skill logo={jest} name={`Jest`} />
             <Skill logo={rtl} name={`React Testing Library`} />
+            <Skill logo={msw} name={`Mock Service Worker`} />
             <Skill logo={storybook} name={`Storybook`} />
           </div>
         </li>

@@ -34,7 +34,7 @@ export default function About() {
             </li>
             <li className="flex items-center gap-3">
               <PiUsersThreeFill className="text-2xl"/>
-              <p className="sm:text-lg 2xl:text-lg 3xl:text-xl">29K Subscribers</p>
+              <p className="sm:text-lg 2xl:text-lg 3xl:text-xl">30K Subscribers</p>
             </li>
             <li className="flex items-center gap-3">
               <FaRegEye className="text-2xl"/>

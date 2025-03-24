@@ -2,6 +2,9 @@ import react from "../assets/tool-icons/react-logo.png";
 import angular from "../assets/tool-icons/angular_gradient.png";
 import redux from "../assets/tool-icons/redux-icon.webp";
 import tailwind from "../assets/tool-icons/tailwind-logo.png";
+import vitest from "../assets/tool-icons/vitest.svg";
+import rtl from "../assets/tool-icons/rtl.png";
+import msw from "../assets/tool-icons/msw.svg";
 import reactIcons from "../assets/tool-icons/react-icons-icon.svg";
 import github from "../assets/tool-icons/github-logo.png";
 import bitbucket from "../assets/tool-icons/bitbucket-logo.png";
@@ -53,13 +56,16 @@ const projects = [
   title: "React Game DB (API)",
   img: gamedb,
   link: "https://amits-react-gamedb.netlify.app/",
-  desc: `A fun project I built with a modern web stack - React JS, Redux for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API. Check it out below!`,
+  desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, and mocked the API calls with MSW. Check it out below!`,
   tools: [
     {id: 1, icon: react, alt: 'React'},
     {id: 2, icon: redux, alt: 'Redux'},
     {id: 3, icon: tailwind, alt: 'Tailwind'},
+    {id: 3, icon: vitest, alt: 'Vitest'},
+    {id: 3, icon: rtl, alt: 'React Testing Library'},
+    {id: 3, icon: msw, alt: 'Mock Service Worker'},
     {id: 4, icon: reactIcons, alt: 'React Icons'},
-    {id: 5, icon: api, alt: 'RAWG API'},
+    {id: 5, icon: api, alt: 'Rest API'},
     {id: 6, icon: github, alt: 'Github'},
     {id: 7, icon: postman, alt: 'Postman'},
   ],
