@@ -3,6 +3,7 @@ import angular from "../assets/tool-icons/angular_gradient.png";
 import redux from "../assets/tool-icons/redux-icon.webp";
 import tailwind from "../assets/tool-icons/tailwind-logo.png";
 import vitest from "../assets/tool-icons/vitest.svg";
+import cy from "../assets/tool-icons/cypress-logo.png";
 import rtl from "../assets/tool-icons/rtl.png";
 import msw from "../assets/tool-icons/msw.svg";
 import reactIcons from "../assets/tool-icons/react-icons-icon.svg";
@@ -34,7 +35,8 @@ const projects = [
   id: 1,
   title: "MERN Full Stack Reed Clone",
   img: mern,
-  link: "https://amits-mern-jobboard-reed-clone.onrender.com/",
+  projLink: "https://amits-mern-jobboard-reed-clone.onrender.com/",
+  gitLink: "https://github.com/amitk7288/mern-jobBoard-reed-clone",
   desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
   tools: [
     {id: 1, icon: mongodb, alt: 'Mongo DB'},
@@ -55,26 +57,29 @@ const projects = [
   id: 2,
   title: "React Game DB (API)",
   img: gamedb,
-  link: "https://amits-react-gamedb.netlify.app/",
-  desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, and mocked the API calls with MSW. Check it out below!`,
+  projLink: "https://amits-react-gamedb.netlify.app/",
+  gitLink: "https://github.com/amitk7288/react-game-db",
+  desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, mocking API calls with MSW, and also used Cypress for e2e testing. Check it out below!`,
   tools: [
     {id: 1, icon: react, alt: 'React'},
     {id: 2, icon: redux, alt: 'Redux'},
     {id: 3, icon: tailwind, alt: 'Tailwind'},
-    {id: 3, icon: vitest, alt: 'Vitest'},
-    {id: 3, icon: rtl, alt: 'React Testing Library'},
-    {id: 3, icon: msw, alt: 'Mock Service Worker'},
-    {id: 4, icon: reactIcons, alt: 'React Icons'},
-    {id: 5, icon: api, alt: 'Rest API'},
-    {id: 6, icon: github, alt: 'Github'},
-    {id: 7, icon: postman, alt: 'Postman'},
+    {id: 4, icon: vitest, alt: 'Vitest'},
+    {id: 5, icon: rtl, alt: 'React Testing Library'},
+    {id: 6, icon: msw, alt: 'Mock Service Worker'},
+    {id: 7, icon: cy, alt: 'Cypress e2e'},
+    {id: 8, icon: reactIcons, alt: 'React Icons'},
+    {id: 9, icon: api, alt: 'Rest API'},
+    {id: 10, icon: github, alt: 'Github'},
+    {id: 11, icon: postman, alt: 'Postman'},
   ],
   },
   {
     id: 3,
     title: "React Kanban Board",
     img: kanban,
-    link: "https://amits-react-kanbanboard.netlify.app/",
+    projLink: "https://amits-react-kanbanboard.netlify.app/",
+    gitLink: "https://github.com/amitk7288/react-kanban",
     desc: `This project was built from scratch using a modern web stack including React JS, Redux for global state management, React Router DOM for navigation, and Tailwind CSS for styling. Check it out below!`,
     tools: [
       {id: 1, icon: react, alt: 'react'},
@@ -88,7 +93,7 @@ const projects = [
     id: 4,
     title: "National Express Journey Planner (1M + Users)",
     img: nxjp,
-    link: "https://book.nationalexpress.com/coach/#/choose-journey",
+    projLink: "https://book.nationalexpress.com/coach/#/choose-journey",
     desc: `I was tasked to work on the National Express Journey Planner, which is used by millions of users. The journey planner itself required me to work with Angular and Sass, and we worked together on this project using Git and BitBucket.`,
     tools: [
       {id: 1, icon: angular, alt: 'angular'},
@@ -102,7 +107,7 @@ const projects = [
     id: 5,
     title: "National Express 50th Timeline",
     img: timeline,
-    link: "https://www.nationalexpress.com/en/timeline",
+    projLink: "https://www.nationalexpress.com/en/timeline",
     desc: `I was tasked to develop an interactive timeline to celebrate 50 years of National Express. This project was built in vanilla JS, Sass, Bootstrap for some of the widgets and Glide JS for the interactivity. Check it out below!`,
     tools: [
       {id: 1, icon: html, alt: 'html'},

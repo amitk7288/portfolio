@@ -12,6 +12,7 @@ import storybook from "../../../assets/tool-icons/storybook.svg";
 import bem from "../../../assets/tool-icons/bem.png";
 import jest from "../../../assets/tool-icons/jest.png";
 import vitest from "../../../assets/tool-icons/vitest.svg";
+import cypress from "../../../assets/tool-icons/cypress-logo.png";
 import rtl from "../../../assets/tool-icons/rtl.png";
 import msw from "../../../assets/tool-icons/msw.svg";
 import firebase from "../../../assets/tool-icons/firebase.png";
@@ -66,6 +67,7 @@ export default function MySkills() {
           <div className="flex gap-3 flex-wrap">
             <Skill logo={vitest} name={`Vitest`} />
             <Skill logo={jest} name={`Jest`} />
+            <Skill logo={cypress} name={`Cypress`} />
             <Skill logo={rtl} name={`React Testing Library`} />
             <Skill logo={msw} name={`Mock Service Worker`} />
             <Skill logo={storybook} name={`Storybook`} />

@@ -1,6 +1,6 @@
+import { RxGithubLogo } from "react-icons/rx";
 
-
-export default function ProjectCard({title, img, desc, tools, link}) {
+export default function ProjectCard({title, img, desc, tools, projLink, gitLink}) {
   return (
     <div className="cursor-pointer h-[100%]">
       <div className="grid w-full overflow-hidden rounded-[10px] bg-[#1f0e41] text-drkcol outline outline-neutral-300">
@@ -32,9 +32,23 @@ export default function ProjectCard({title, img, desc, tools, link}) {
                 </li>
               ))}
             </ul>
-            <a href={link} target="_blank" className="text-center text-lg cursor-pointer transition-colors duration-400 ease-in-out bg-[#365dff] text-white py-1.5 px-4 rounded-md font-medium hover:bg-[#3690ff]">
-              View Project
-            </a>
+            {gitLink ? (
+              <div className="flex items-center flex-wrap xl:flex-nowrap gap-4 justify-between">
+                <a href={projLink} target="_blank" className="text-center text-lg cursor-pointer transition-colors duration-400 ease-in-out bg-[#365dff] text-white py-1.5 px-4 rounded-md font-medium hover:bg-[#3690ff] w-full">
+                  View Project
+                </a>
+                <a href={gitLink} target="_blank" className="text-center text-lg cursor-pointer transition-colors duration-400 ease-in-out bg-white text-[#222222] py-1.5 px-4 rounded-md font-medium hover:bg-[#222222] hover:text-white w-full">
+                  <div className="flex items-center gap-3">
+                    <RxGithubLogo />
+                    <span>GitHub Repo</span>
+                  </div>
+                </a>
+              </div>
+            ) :
+                <a href={projLink} target="_blank" className="text-center text-lg cursor-pointer transition-colors duration-400 ease-in-out bg-[#365dff] text-white py-1.5 px-4 rounded-md font-medium hover:bg-[#3690ff] w-full">
+                  View Project
+                </a>
+            }
           </div>
         </div>
       </div>

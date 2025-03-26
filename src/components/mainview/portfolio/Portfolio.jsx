@@ -14,7 +14,8 @@ export default function Portfolio() {
             key={p.id} 
             title={p.title} 
             img={p.img} 
-            link={p.link}
+            projLink={p.projLink}
+            gitLink={p.gitLink}
             desc={p.desc} 
             tools={p.tools} 
           />
