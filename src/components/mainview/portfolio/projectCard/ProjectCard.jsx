@@ -38,7 +38,7 @@ export default function ProjectCard({title, img, desc, tools, projLink, gitLink}
                   View Project
                 </a>
                 <a href={gitLink} target="_blank" className="text-center text-lg cursor-pointer transition-colors duration-400 ease-in-out bg-white text-[#222222] py-1.5 px-4 rounded-md font-medium hover:bg-[#222222] hover:text-white w-full">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 justify-center">
                     <RxGithubLogo />
                     <span>GitHub Repo</span>
                   </div>
