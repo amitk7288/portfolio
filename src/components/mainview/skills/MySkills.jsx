@@ -16,6 +16,8 @@ import cypress from "../../../assets/tool-icons/cypress-logo.png";
 import rtl from "../../../assets/tool-icons/rtl.png";
 import msw from "../../../assets/tool-icons/msw.svg";
 import firebase from "../../../assets/tool-icons/firebase.png";
+import githubActions from "../../../assets/tool-icons/github-actions.png";
+import azure from "../../../assets/tool-icons/azure.png";
 import angular from "../../../assets/tool-icons/angular_gradient.png";
 import redux from "../../../assets/tool-icons/redux-icon.webp";
 import mongo from "../../../assets/tool-icons/mongodb.svg";
@@ -71,6 +73,18 @@ export default function MySkills() {
             <Skill logo={rtl} name={`React Testing Library`} />
             <Skill logo={msw} name={`Mock Service Worker`} />
             <Skill logo={storybook} name={`Storybook`} />
+          </div>
+        </li>
+        <li>
+          <p className="text-[22px] font-semibold tracking-wide mb-3">CI/CD Pipelines :</p>
+          <div className="flex gap-3 flex-wrap">
+            <Skill logo={githubActions} name={`Github Actions`} />
+          </div>
+        </li>
+        <li>
+          <p className="text-[22px] font-semibold tracking-wide mb-3">Cloud Computing :</p>
+          <div className="flex gap-3 flex-wrap">
+            <Skill logo={azure} name={`Microsoft Azure`} />
           </div>
         </li>
         <li>

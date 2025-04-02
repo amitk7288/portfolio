@@ -8,6 +8,8 @@ import rtl from "../assets/tool-icons/rtl.png";
 import msw from "../assets/tool-icons/msw.svg";
 import reactIcons from "../assets/tool-icons/react-icons-icon.svg";
 import github from "../assets/tool-icons/github-logo.png";
+import githubActions from "../assets/tool-icons/github-actions.png";
+import azure from "../assets/tool-icons/azure.png";
 import bitbucket from "../assets/tool-icons/bitbucket-logo.png";
 import js from "../assets/tool-icons/js-logo.png";
 import ts from "../assets/tool-icons/ts-logo.svg.png";
@@ -32,47 +34,50 @@ import nxjp from "../assets/NX-Journey-Planner.png";
 
 const projects = [
   {
-  id: 1,
-  title: "MERN Full Stack Reed Clone",
-  img: mern,
-  projLink: "https://amits-mern-jobboard-reed-clone.onrender.com/",
-  gitLink: "https://github.com/amitk7288/mern-jobBoard-reed-clone",
-  desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
-  tools: [
-    {id: 1, icon: mongodb, alt: 'Mongo DB'},
-    {id: 2, icon: express, alt: 'Express'},
-    {id: 3, icon: react, alt: 'React'},
-    {id: 4, icon: node, alt: 'Node JS'},
-    {id: 5, icon: redux, alt: 'Redux'},
-    {id: 6, icon: tailwind, alt: 'Tailwind'},
-    {id: 7, icon: reactIcons, alt: 'React Icons'},
-    {id: 8, icon: api, alt: 'Reed API'},
-    {id: 9, icon: firebase, alt: 'Google Firebase'},
-    {id: 10, icon: cloudinary, alt: 'Cloudinary'},
-    {id: 11, icon: github, alt: 'Github'},
-    {id: 12, icon: postman, alt: 'Postman'},
-  ],
+    id: 1,
+    title: "React Game DB (API)",
+    img: gamedb,
+    projLink: "https://calm-ocean-01a52e803.6.azurestaticapps.net/",
+    //projLink: "https://amits-react-gamedb.netlify.app/",
+    gitLink: "https://github.com/amitk7288/react-game-db",
+    desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, mocking API calls with MSW, and also used Cypress for e2e testing. I then used Github Actions for CI/CD Pipelines and deployed to Azure. Check it out below!`,
+    tools: [
+      {id: 1, icon: react, alt: 'React'},
+      {id: 2, icon: redux, alt: 'Redux'},
+      {id: 3, icon: tailwind, alt: 'Tailwind'},
+      {id: 4, icon: vitest, alt: 'Vitest'},
+      {id: 5, icon: rtl, alt: 'React Testing Library'},
+      {id: 6, icon: msw, alt: 'Mock Service Worker'},
+      {id: 7, icon: cy, alt: 'Cypress e2e'},
+      {id: 8, icon: githubActions, alt: 'Github Actions'},
+      {id: 9, icon: azure, alt: 'Azure - Static Web Apps'},
+      {id: 10, icon: reactIcons, alt: 'React Icons'},
+      {id: 11, icon: api, alt: 'Rest API'},
+      {id: 12, icon: github, alt: 'Github'},
+      {id: 13, icon: postman, alt: 'Postman'},
+    ],
   },
   {
-  id: 2,
-  title: "React Game DB (API)",
-  img: gamedb,
-  projLink: "https://amits-react-gamedb.netlify.app/",
-  gitLink: "https://github.com/amitk7288/react-game-db",
-  desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, React Router for navigation, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, mocking API calls with MSW, and also used Cypress for e2e testing. Check it out below!`,
-  tools: [
-    {id: 1, icon: react, alt: 'React'},
-    {id: 2, icon: redux, alt: 'Redux'},
-    {id: 3, icon: tailwind, alt: 'Tailwind'},
-    {id: 4, icon: vitest, alt: 'Vitest'},
-    {id: 5, icon: rtl, alt: 'React Testing Library'},
-    {id: 6, icon: msw, alt: 'Mock Service Worker'},
-    {id: 7, icon: cy, alt: 'Cypress e2e'},
-    {id: 8, icon: reactIcons, alt: 'React Icons'},
-    {id: 9, icon: api, alt: 'Rest API'},
-    {id: 10, icon: github, alt: 'Github'},
-    {id: 11, icon: postman, alt: 'Postman'},
-  ],
+    id: 2,
+    title: "MERN Full Stack Reed Clone",
+    img: mern,
+    projLink: "https://amits-mern-jobboard-reed-clone.onrender.com/",
+    gitLink: "https://github.com/amitk7288/mern-jobBoard-reed-clone",
+    desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
+    tools: [
+      {id: 1, icon: mongodb, alt: 'Mongo DB'},
+      {id: 2, icon: express, alt: 'Express'},
+      {id: 3, icon: react, alt: 'React'},
+      {id: 4, icon: node, alt: 'Node JS'},
+      {id: 5, icon: redux, alt: 'Redux'},
+      {id: 6, icon: tailwind, alt: 'Tailwind'},
+      {id: 7, icon: reactIcons, alt: 'React Icons'},
+      {id: 8, icon: api, alt: 'Reed API'},
+      {id: 9, icon: firebase, alt: 'Google Firebase'},
+      {id: 10, icon: cloudinary, alt: 'Cloudinary'},
+      {id: 11, icon: github, alt: 'Github'},
+      {id: 12, icon: postman, alt: 'Postman'},
+    ],
   },
   {
     id: 3,
