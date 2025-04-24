@@ -37,8 +37,8 @@ const projects = [
     id: 1,
     title: "React Game DB (API)",
     img: gamedb,
-    projLink: "https://calm-ocean-01a52e803.6.azurestaticapps.net/",
-    //projLink: "https://amits-react-gamedb.netlify.app/",
+    // projLink: "https://calm-ocean-01a52e803.6.azurestaticapps.net/",
+    projLink: "https://amits-react-gamedb.netlify.app/",
     gitLink: "https://github.com/amitk7288/react-game-db",
     desc: `A fun project I built with a modern web stack - React JS, Redux Toolkit for global state management, Tailwind CSS for styling and the RAWG API for Rest API integration. I also used Vitest and RTL for Unit and Integration tests, mocking API calls with MSW, and also used Cypress for e2e testing. I then used Github Actions for CI/CD Pipelines and deployed to Azure. Check it out below!`,
     tools: [
