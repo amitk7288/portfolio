@@ -32,6 +32,13 @@ import bitbucket from "../../../assets/tool-icons/bitbucket-logo.png";
 import trello from "../../../assets/tool-icons/trello.svg";
 import jira from "../../../assets/tool-icons/jira.png";
 import postman from "../../../assets/tool-icons/postman.svg"
+import nextjs from "../../../assets/tool-icons/nextjs-logo.png";
+import zustand from "../../../assets/tool-icons/zustand-logo.png";
+import tanstackQuery from "../../../assets/tool-icons/tanstack-query-logo.png";
+import prisma from "../../../assets/tool-icons/prisma-logo.png";
+import supabase from "../../../assets/tool-icons/supabase-logo.avif";
+import clerk from "../../../assets/tool-icons/clerk-logo.png";
+import shadcn from "../../../assets/tool-icons/shad-cn-logo.png";
 
 export default function MySkills() {
   return (
@@ -49,12 +56,21 @@ export default function MySkills() {
             <Skill logo={css} name={`CSS3`} />
             <Skill logo={js} name={`Javascript (ES6+)`} />
             <Skill logo={ts} name={`Typescript`} />
+            <Skill logo={nextjs} name={`Next.js`} />
             <Skill logo={react} name={`React`} />
             <Skill logo={angular} name={`Angular`} />
-            <Skill logo={redux} name={`Redux Toolkit`} />
             <Skill logo={tailwind} name={`Tailwind`} />
+            <Skill logo={shadcn} name={`Shadcn/ui`} />
             <Skill logo={sass} name={`Sass`} />
             <Skill logo={bootstrap} name={`Bootstrap`} />
+          </div>
+        </li>
+        <li>
+          <p className="text-[22px] font-semibold tracking-wide mb-3">State Management :</p>
+          <div className="flex gap-3 flex-wrap">
+            <Skill logo={redux} name={`Redux Toolkit`} />
+            <Skill logo={zustand} name={`Zustand`} />
+            <Skill logo={tanstackQuery} name={`Tanstack Query / React Query`} />
           </div>
         </li>
         <li>
@@ -100,11 +116,14 @@ export default function MySkills() {
             <Skill logo={node} name={`Node JS`} />
             <Skill logo={express} name={`Express`} />
             <Skill logo={mongo} name={`MongoDB`} />
+            <Skill logo={prisma} name={`Prisma`} />
+            <Skill logo={supabase} name={`Supabase`} />
             <div className="border border-gray-500 w-fit flex items-center gap-2 py-2 px-3 rounded-lg ">
               <div><TbApi className="w-[20px] text-black bg-lime-400" /></div>
               <div><p className="text-lg sm:text-xl font-medium text-white">REST API</p></div>
             </div>
             <Skill logo={jwt} name={`JWT JSON Web Tokens`} />
+            <Skill logo={clerk} name={`Clerk Auth`} />
             <Skill logo={postman} name={`Postman`} />
             <Skill logo={firebase} name={`Firebase`} />
           </div>
