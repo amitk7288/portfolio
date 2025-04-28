@@ -24,7 +24,7 @@ export default function ProjectCard({title, img, desc, tools, projLink, gitLink}
 
 
           {/* Tools Section */}
-          <div className="flex flex-col gap-3 justify-between cursor-default">
+          <div className="flex flex-col gap-3 justify-between cursor-default h-auto">
             <ul className="flex flex-wrap xl:flex-nowrap items-center justify-center gap-4 list-none sm:justify-start">
               {tools.map((t) => (
                 <li key={t.id}>
