@@ -24,15 +24,15 @@ import firebase from "../assets/tool-icons/firebase.png";
 import cloudinary from "../assets/tool-icons/cloudinary.webp";
 import jira from "../assets/tool-icons/jira.png";
 import postman from "../assets/tool-icons/postman.svg";
-// import nextjs from "../assets/tool-icons/nextjs-logo.png";
-// import zustand from "../assets/tool-icons/zustand-logo.png";
-// import tanstackQuery from "../assets/tool-icons/tanstack-query-logo.png";
-// import prisma from "../assets/tool-icons/prisma-logo.png";
-// import supabase from "../assets/tool-icons/supabase-logo.avif";
-// import clerk from "../assets/tool-icons/clerk-logo.png";
-// import shadcn from "../assets/tool-icons/shad-cn-logo.png";
+import nextjs from "../assets/tool-icons/nextjs-logo.png";
+import zustand from "../assets/tool-icons/zustand-logo.png";
+import tanstackQuery from "../assets/tool-icons/tanstack-query-logo.png";
+import prisma from "../assets/tool-icons/prisma-logo.png";
+import supabase from "../assets/tool-icons/supabase-logo.avif";
+import clerk from "../assets/tool-icons/clerk-logo.png";
+import shadcn from "../assets/tool-icons/shad-cn-logo.png";
 
-// import nextjsGamedb from "../assets/nextjs-game-db-drk.png";
+import nextjsGamedb from "../assets/nextjs-game-db-drk.png";
 import mern from "../assets/mern-reed-clone.png";
 import gamedb from "../assets/react-game-db-img-drk.png";
 import kanban from "../assets/react-kanban-light.png";
@@ -41,28 +41,28 @@ import nxjp from "../assets/NX-Journey-Planner.png";
 
 
 const projects = [
-  // {
-  //   id: 1,
-  //   title: "Next JS + Typescript Full Stack Game DB",
-  //   img: nextjsGamedb,
-  //   projLink: "https://amits-react-gamedb.netlify.app/",
-  //   gitLink: "https://github.com/amitk7288/react-game-db",
-  //   desc: `A fun modern full-stack project I built with Next.js and TypeScript. I decided to use Tanstack Query for smooth data fetching (and caching) and used Zustand to keep state management super simple. Prisma and Supabase power the backend, while Clerk makes authentication a breeze. Styled with Tailwind and dressed up with shadcn components and React Icons, it's a modern take on a game database—check it out below!`,
-  //   tools: [
-  //     {id: 1, icon: nextjs, alt: 'NextJS'},
-  //     {id: 2, icon: ts, alt: 'Typescript'},
-  //     {id: 3, icon: prisma, alt: 'Prisma ORM'},
-  //     {id: 4, icon: supabase, alt: 'Supabase'},
-  //     {id: 5, icon: zustand, alt: 'Zustand'},
-  //     {id: 6, icon: tanstackQuery, alt: 'Tanstack Query/React Query'},
-  //     {id: 7, icon: clerk, alt: 'Clerk Auth'},
-  //     {id: 8, icon: shadcn, alt: 'Shad cn'},
-  //     {id: 9, icon: tailwind, alt: 'Tailwind'},
-  //     {id: 10, icon: reactIcons, alt: 'React Icons'},
-  //     {id: 11, icon: api, alt: 'Rest API'},
-  //     {id: 12, icon: github, alt: 'Github'},
-  //   ],
-  // },
+  {
+    id: 1,
+    title: "Next JS + Typescript Full Stack Game DB",
+    img: nextjsGamedb,
+    projLink: "https://amits-nextjs-gamedb.vercel.app/",
+    gitLink: "https://github.com/amitk7288/nextjs-gamedb",
+    desc: `A fun modern full-stack project I built with Next.js and TypeScript. I decided to use Tanstack Query for smooth data fetching (and caching) and used Zustand to keep state management super simple. Prisma and Supabase power the backend, while Clerk makes authentication a breeze. Styled with Tailwind and dressed up with shadcn components and React Icons, it's a modern take on a game database—check it out below!`,
+    tools: [
+      {id: 1, icon: nextjs, alt: 'NextJS'},
+      {id: 2, icon: ts, alt: 'Typescript'},
+      {id: 3, icon: prisma, alt: 'Prisma ORM'},
+      {id: 4, icon: supabase, alt: 'Supabase'},
+      {id: 5, icon: zustand, alt: 'Zustand'},
+      {id: 6, icon: tanstackQuery, alt: 'Tanstack Query/React Query'},
+      {id: 7, icon: clerk, alt: 'Clerk Auth'},
+      {id: 8, icon: shadcn, alt: 'Shad cn'},
+      {id: 9, icon: tailwind, alt: 'Tailwind'},
+      {id: 10, icon: reactIcons, alt: 'React Icons'},
+      {id: 11, icon: api, alt: 'Rest API'},
+      {id: 12, icon: github, alt: 'Github'},
+    ],
+  },
     {
     id: 2,
     title: "React Game DB (API)",
