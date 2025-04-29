@@ -47,7 +47,7 @@ const projects = [
     img: nextjsGamedb,
     projLink: "https://amits-nextjs-gamedb.vercel.app/",
     gitLink: "https://github.com/amitk7288/nextjs-gamedb",
-    desc: `A fun modern full-stack project I built with Next.js and TypeScript. I decided to use Tanstack Query for smooth data fetching (and caching) and used Zustand to keep state management super simple. Prisma and Supabase power the backend, while Clerk makes authentication a breeze. Styled with Tailwind and dressed up with shadcn components and React Icons, it's a modern take on a game database—check it out below!`,
+    desc: `A modern full-stack project I built with Next.js and TypeScript. I decided to use Tanstack Query for smooth data fetching (and caching) and used Zustand to keep state management super simple. Prisma and Supabase power the backend, while Clerk makes authentication a breeze. Styled with Tailwind and dressed up with Shadcn/ui components and React Icons, check it out below!`,
     tools: [
       {id: 1, icon: nextjs, alt: 'NextJS'},
       {id: 2, icon: ts, alt: 'Typescript'},
