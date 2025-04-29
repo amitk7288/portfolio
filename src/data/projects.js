@@ -93,7 +93,7 @@ const projects = [
     img: mern,
     projLink: "https://amits-mern-jobboard-reed-clone.onrender.com/",
     gitLink: "https://github.com/amitk7288/mern-jobBoard-reed-clone",
-    desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience.`,
+    desc: `A full-stack MERN web application featuring Google OAuth and JWT for secure authentication, Cloudinary and Multer for file uploads, and bcrypt for password encryption. The app featurs CRUD operations, real-time updates, and a responsive design, delivering a seamless and modern user experience. Please allow up to 1min for the project to load, thank you.`,
     tools: [
       {id: 1, icon: mongodb, alt: 'Mongo DB'},
       {id: 2, icon: express, alt: 'Express'},
